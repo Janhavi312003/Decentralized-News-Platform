@@ -144,8 +144,6 @@ const Footer = () => {
                 <a href='' className='text-gray-500 transition-all duration-300 hover:text-yellow-300'><FaEnvelope className='h-6 w-6'/></a>
                 </div>
         </div>
-
-       
       </div>
     </div>
   )
