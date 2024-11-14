@@ -7,7 +7,9 @@ import { FaEnvelope } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { NavLink } from 'react-router-dom';
 import { ConnectWallet } from '@thirdweb-dev/react';
-import { Buffer } from 'buffer';
+import { GiNewspaper } from "react-icons/gi";
+
+
 
 
 const Navbar = () => {
@@ -27,7 +29,14 @@ const Navbar = () => {
   return (
     <header className='bg-black text-white fixed top-0 left-0 right-0'>
         <nav className='px-4 py-4 max-w-7xl mx-auto flex justify-between items-center'>
-            <a href="" className='text-xl font-bold text-white'>News<span className='text-purple-600'>KT</span></a>
+        <div className="flex items-center space-x-1"> {/* Reduced gap between elements */}
+  <div className="text-6xl">
+    <GiNewspaper />
+  </div>
+  <a href="#" className="text-xl font-bold text-white">
+    News<span className="text-purple-600">KT</span>
+  </a>
+</div>
             <ul className='md:flex gap-12 text-lg hidden'>
                 {
                     navItems.map(({path, link}) => <li className='text-white' key={path}>
