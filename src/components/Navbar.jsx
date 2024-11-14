@@ -7,6 +7,8 @@ import { FaEnvelope } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { NavLink } from 'react-router-dom';
 import { ConnectWallet } from '@thirdweb-dev/react';
+import { Buffer } from 'buffer';
+
 
 const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);

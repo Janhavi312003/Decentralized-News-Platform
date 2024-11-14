@@ -30,25 +30,48 @@ const Footer = () => {
                 </ul>
                </div>
                {/*------*/}
-               <div><p className='font-medium tracking-wide text-gray-300'>Category</p>
+               <div><p className='font-medium tracking-wide text-gray-300'>Entertainment </p>
                 <ul className='mt-2 space-y-2'>
                     <li>
-                    <a href='/' className='text-gray-500 transition-colors duration-300 hover:text-orange-600'>World</a>
+                    <a href='/' className='text-gray-500 transition-colors duration-300 hover:text-orange-600'>Movies</a>
                     </li>
                     <li>
-                    <a href='/' className='text-gray-500 transition-colors duration-300 hover:text-orange-600'>India</a>
+                    <a href='/' className='text-gray-500 transition-colors duration-300 hover:text-orange-600'>Music</a>
                     </li>
                     <li>
-                    <a href='/' className='text-gray-500 transition-colors duration-300 hover:text-orange-600'>Health</a>
+                    <a href='/' className='text-gray-500 transition-colors duration-300 hover:text-orange-600'>TV Shows</a>
                     </li>
                     <li>
-                    <a href='/' className='text-gray-500 transition-colors duration-300 hover:text-orange-600'>Technology</a>
+                    <a href='/' className='text-gray-500 transition-colors duration-300 hover:text-orange-600'>Celebrity News</a>
                     </li>
                     <li>
-                    <a href='/' className='text-gray-500 transition-colors duration-300 hover:text-orange-600'>Polities</a>
+                    <a href='/' className='text-gray-500 transition-colors duration-300 hover:text-orange-600'>Gaming</a>
                     </li>
                     <li>
-                    <a href='/' className='text-gray-500 transition-colors duration-300 hover:text-orange-600'>Sports</a>
+                    <a href='/' className='text-gray-500 transition-colors duration-300 hover:text-orange-600'>Interviews Interviews</a>
+                    </li>
+                </ul>
+               </div>
+               {/*------*/}
+               <div><p className='font-medium tracking-wide text-gray-300'>Lifestyle</p>
+                <ul className='mt-2 space-y-2'>
+                    <li>
+                    <a href='/' className='text-gray-500 transition-colors duration-300 hover:text-orange-600'>Fashion</a>
+                    </li>
+                    <li>
+                    <a href='/' className='text-gray-500 transition-colors duration-300 hover:text-orange-600'>Travel</a>
+                    </li>
+                    <li>
+                    <a href='/' className='text-gray-500 transition-colors duration-300 hover:text-orange-600'>Food</a>
+                    </li>
+                    <li>
+                    <a href='/' className='text-gray-500 transition-colors duration-300 hover:text-orange-600'>Education</a>
+                    </li>
+                    <li>
+                    <a href='/' className='text-gray-500 transition-colors duration-300 hover:text-orange-600'>Community events</a>
+                    </li>
+                    <li>
+                    <a href='/' className='text-gray-500 transition-colors duration-300 hover:text-orange-600'>Fitness</a>
                     </li>
                 </ul>
                </div>
@@ -56,45 +79,39 @@ const Footer = () => {
                <div><p className='font-medium tracking-wide text-gray-300'>Category</p>
                 <ul className='mt-2 space-y-2'>
                     <li>
-                    <a href='/' className='text-gray-500 transition-colors duration-300 hover:text-orange-600'>World</a>
+                    <a href='/' className='text-gray-500 transition-colors duration-300 hover:text-orange-600'>Elections 2024</a>
                     </li>
                     <li>
-                    <a href='/' className='text-gray-500 transition-colors duration-300 hover:text-orange-600'>India</a>
+                    <a href='/' className='text-gray-500 transition-colors duration-300 hover:text-orange-600'>Business</a>
                     </li>
                     <li>
-                    <a href='/' className='text-gray-500 transition-colors duration-300 hover:text-orange-600'>Health</a>
+                    <a href='/' className='text-gray-500 transition-colors duration-300 hover:text-orange-600'>Environment</a>
                     </li>
                     <li>
-                    <a href='/' className='text-gray-500 transition-colors duration-300 hover:text-orange-600'>Technology</a>
+                    <a href='/' className='text-gray-500 transition-colors duration-300 hover:text-orange-600'>Geographic-specific</a>
                     </li>
                     <li>
-                    <a href='/' className='text-gray-500 transition-colors duration-300 hover:text-orange-600'>Polities</a>
+                    <a href='/' className='text-gray-500 transition-colors duration-300 hover:text-orange-600'>Gadgets</a>
                     </li>
                     <li>
-                    <a href='/' className='text-gray-500 transition-colors duration-300 hover:text-orange-600'>Sports</a>
+                    <a href='/' className='text-gray-500 transition-colors duration-300 hover:text-orange-600'>Mobile & Tabs</a>
                     </li>
                 </ul>
                </div>
-               {/*------*/}
-               <div><p className='font-medium tracking-wide text-gray-300'>Category</p>
+
+               <div><p className='font-medium tracking-wide text-gray-300'>QUICK LINKS</p>
                 <ul className='mt-2 space-y-2'>
                     <li>
-                    <a href='/' className='text-gray-500 transition-colors duration-300 hover:text-orange-600'>World</a>
+                    <a href='/' className='text-gray-500 transition-colors duration-300 hover:text-orange-600'>T&C</a>
                     </li>
                     <li>
-                    <a href='/' className='text-gray-500 transition-colors duration-300 hover:text-orange-600'>India</a>
+                    <a href='/' className='text-gray-500 transition-colors duration-300 hover:text-orange-600'>Privacy Policy</a>
                     </li>
                     <li>
-                    <a href='/' className='text-gray-500 transition-colors duration-300 hover:text-orange-600'>Health</a>
+                    <a href='/' className='text-gray-500 transition-colors duration-300 hover:text-orange-600'>Advertise with Us</a>
                     </li>
                     <li>
-                    <a href='/' className='text-gray-500 transition-colors duration-300 hover:text-orange-600'>Technology</a>
-                    </li>
-                    <li>
-                    <a href='/' className='text-gray-500 transition-colors duration-300 hover:text-orange-600'>Polities</a>
-                    </li>
-                    <li>
-                    <a href='/' className='text-gray-500 transition-colors duration-300 hover:text-orange-600'>Sports</a>
+                    <a href='/' className='text-gray-500 transition-colors duration-300 hover:text-orange-600'>Brand Solutions</a>
                     </li>
                 </ul>
                </div>
@@ -112,7 +129,7 @@ const Footer = () => {
                   </button>
                
                </form>
-               <p className='mt-4 text-sm text-gray-500'>sdgrthyghulgf gdsdrtfyfdr gfdfyf fxdyrdu hdrdtyf fdrjdtf gdytfyg hdhgfutg</p>
+               <p className='mt-4 text-sm text-gray-500'>Stay informed, stay ahead! Subscribe now to receive breaking news, exclusive insights, and updates from our platform!</p>
                </div>
         </div>
 

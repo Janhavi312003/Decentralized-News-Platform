@@ -12,6 +12,8 @@ import About from './Pages/About.jsx';
 import Contact from './Pages/Contact.jsx';
 import Publish from './Pages/Publish.jsx';
 import { ThirdwebProvider, ChainId } from '@thirdweb-dev/react';
+import { Buffer } from 'buffer';
+
 
 const desiredChainId = ChainId.Mumbai;
 
