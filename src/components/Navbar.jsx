@@ -10,8 +10,6 @@ import { ConnectWallet } from '@thirdweb-dev/react';
 import { GiNewspaper } from "react-icons/gi";
 
 
-
-
 const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -22,7 +20,7 @@ const Navbar = () => {
     const navItems = [
         {path: "/",link: "Home"},
         {path: "/publish",link: "Publish"},
-        {path: "/profile",link: "Profile"},
+        {path: "/news",link: "News"},
         {path: "/about",link: "About"},
         {path: "/contact",link: "Contact"}
     ]
@@ -58,8 +56,9 @@ const Navbar = () => {
                 <a href="/" className='hover:text-blue-600'><FaFacebook /></a>
                 <a href="/" className='hover:text-yellow-500'><FaEnvelope /></a>
                 <a href="/" className='hover:text-blue-500'><FaTwitter /></a>
+                <button className='bg-yellow-500 text-black text-2xl px-6 py-2 font-medium  rounded-md hover:bg-white hover:text-yellow-400'>Subscribe</button>
                 <div>
-                    <ConnectWallet className='hover:bg-white hover:text-yellow-400'/>
+                    <ConnectWallet className='text-2xl hover:bg-white hover:text-yellow-400'/>
                 </div>
             </div>
 

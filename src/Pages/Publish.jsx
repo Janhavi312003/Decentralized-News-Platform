@@ -22,6 +22,7 @@ const Publish = () => {
   };
 
   return (
+    
     <div className="bg-white dark:bg-gray-900">
       <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-12">
         <header className="mb-8">
@@ -118,7 +119,7 @@ const Publish = () => {
           </main>
 
           <aside className="mt-8 lg:mt-0 lg:w-1/4 lg:ml-8">
-            <div className="bg-gray-100 dark:bg-gray-800 p-6 rounded-lg border border-gray-300 dark:border-gray-700 text-left mb-8">
+            <div className="bg-gray-100 dark:bg-gray-900 p-6 rounded-lg border border-gray-300 dark:border-gray-700 text-left mb-8">
               <h2 className="text-xl font-semibold mb-4 text-gray-900 dark:text-white">Publishing Guidelines</h2>
               <p className="mb-4 text-gray-700 dark:text-gray-300">Ensure your article is factual, well-researched, and relevant.</p>
               <p className="mb-4 text-gray-700 dark:text-gray-300">Use proper grammar and punctuation.</p>

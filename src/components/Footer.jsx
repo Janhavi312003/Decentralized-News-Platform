@@ -134,7 +134,7 @@ const Footer = () => {
         </div>
 
         <div className='flex flex-col justify-between pt-5 pb-10 border-t border-gray-800 sm:flex-row'>
-            <p className=' text-sm text-gray-500'>Copyright © 2024 NewsKT [P] Ltd. All Rights Reserved</p>
+            <p className=' text-sm text-gray-500'>Copyright © 2024 NewsKT [P] Ltd. All Rights Reserved By Janhavi</p>
             <div className='flex items-center mt-4 space-x-4 sm:mt-0'>
                 <a href='' className='text-gray-500 transition-all duration-300 hover:text-blue-500'><FaTwitter className='h-6 w-6'/></a>
                 <a href='' className='text-gray-500 transition-all duration-300 hover:text-pink-500'><FaInstagram className='h-6 w-6'/></a>
