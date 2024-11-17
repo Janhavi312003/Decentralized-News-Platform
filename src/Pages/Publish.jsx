@@ -6,6 +6,7 @@ const Publish = () => {
   const [content, setContent] = useState('');
   const [category, setCategory] = useState('');
   const [image, setImage] = useState('');
+  const [publishedDate, setPublishedDate] = useState(''); 
   
   const categories = ['Politics', 'Sports', 'Technology', 'Health','Business', 'Entertaiment','India','World']; // Example categories, adjust as needed
 
@@ -17,16 +18,17 @@ const Publish = () => {
       title,
       content,
       category,
+      publishedDate,
       image,
     });
   };
 
   return (
     
-    <div className="bg-white dark:bg-gray-900">
+    <div className="bg-blue-950 dark:bg-gray-900">
       <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-12">
         <header className="mb-8">
-          <h1 className="py-8 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
+          <h1 className="py-8 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl dark:text-white">
             Publish News
           </h1>
         </header>
@@ -35,7 +37,7 @@ const Publish = () => {
           <main className="flex-1 lg:mr-8">
             <form onSubmit={handleSubmit} className="space-y-8">
               <div>
-                <label htmlFor="wallet-address" className="block mb-2 text-lg font-medium text-gray-900 dark:text-gray-300">
+                <label htmlFor="wallet-address" className="block mb-2 text-lg font-medium text-white dark:text-gray-300">
                   Wallet Address
                 </label>
                 <input
@@ -48,7 +50,7 @@ const Publish = () => {
               </div>
 
               <div>
-                <label htmlFor="title" className="block mb-2 text-lg font-medium text-gray-900 dark:text-gray-300">
+                <label htmlFor="title" className="block mb-2 text-lg font-medium text-white dark:text-gray-300">
                   Title
                 </label>
                 <input
@@ -62,7 +64,21 @@ const Publish = () => {
               </div>
 
               <div>
-                <label htmlFor="content" className="block mb-2 text-lg font-medium text-gray-900 dark:text-gray-300">
+                <label htmlFor="author" className="block mb-2 text-lg font-medium text-white dark:text-gray-300">
+                  Author
+                </label>
+                <input
+                  id="author"
+                  type="text"
+                  value={title}
+                  onChange={(e) => setTitle(e.target.value)}
+                  required
+                  className="w-full p-2.5 bg-gray-100 border border-gray-300 rounded-lg dark:bg-gray-700 dark:border-gray-600 dark:text-white"
+                />
+              </div>
+
+              <div>
+                <label htmlFor="content" className="block mb-2 text-lg font-medium text-white dark:text-gray-300">
                   Content
                 </label>
                 <textarea
@@ -75,7 +91,7 @@ const Publish = () => {
               </div>
 
               <div>
-                <label htmlFor="category" className="block mb-2 text-lg font-medium text-gray-900 dark:text-gray-300">
+                <label htmlFor="category" className="block mb-2 text-lg font-medium text-white dark:text-gray-300">
                   Category
                 </label>
                 <select
@@ -96,8 +112,24 @@ const Publish = () => {
                 </select>
               </div>
 
+                <div>
+                  <label
+                  htmlFor="published_date"
+                  className="block mb-2 text-lg font-medium text-white dark:text-gray-300">
+                 Published Date
+                  </label>
+                   <input
+                    type="date"
+                    id="published_date"
+                    value={publishedDate}
+                    onChange={(e) => setPublishedDate(e.target.value)}
+                    required
+                    className="w-full p-2.5 bg-gray-100 border border-gray-300 rounded-lg dark:bg-gray-700 dark:border-gray-600 dark:text-white"/>
+                 </div>
+
+
               <div>
-                <label htmlFor="image" className="block mb-2 text-lg font-medium text-gray-900 dark:text-gray-300">
+                <label htmlFor="image" className="block mb-2 text-lg font-medium text-white dark:text-gray-300">
                   Image URL
                 </label>
                 <input
