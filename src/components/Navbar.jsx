@@ -50,13 +50,13 @@ const Navbar = () => {
             </ul>
 
             <div className='text-white lg:flex gap-4 item-center hidden'>
-                <a href="/" className='hover:text-blue-600'><FaLinkedin /></a>
-                <a href="/" className='hover:text-green-500'><FaWhatsappSquare /></a>
-                <a href="/" className='hover:text-pink-400'><FaInstagramSquare /></a>
-                <a href="/" className='hover:text-blue-600'><FaFacebook /></a>
-                <a href="/" className='hover:text-yellow-500'><FaEnvelope /></a>
-                <a href="/" className='hover:text-blue-500'><FaTwitter /></a>
-                <button className='bg-yellow-500 text-black text-2xl px-6 py-2 font-medium  rounded-md hover:bg-white hover:text-yellow-400'>Subscribe</button>
+                <a href="/" className='hover:text-blue-600 py-5'><FaLinkedin /></a>
+                <a href="/" className='hover:text-green-500 py-5'><FaWhatsappSquare /></a>
+                <a href="/" className='hover:text-pink-400 py-5'><FaInstagramSquare /></a>
+                <a href="/" className='hover:text-blue-600 py-5'><FaFacebook /></a>
+                <a href="/" className='hover:text-yellow-500 py-5'><FaEnvelope /></a>
+                <a href="/" className='hover:text-blue-500 py-5'><FaTwitter /></a>
+                <button className='bg-yellow-500 text-black text-2xl px-2 py-0 font-medium  rounded-md hover:bg-white hover:text-yellow-400'>Subscribe</button>
                 <div>
                     <ConnectWallet className='text-2xl hover:bg-white hover:text-yellow-400'/>
                 </div>

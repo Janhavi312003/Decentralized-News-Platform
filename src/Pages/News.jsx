@@ -8,7 +8,7 @@ const News = () => {
         <h2 className='text-5xl lg:text-7xl leading-snug font-bold mb-5'>News Page</h2>
         </div>
         {/*All News Container*/}
-        <div>
+        <div className='max-w-7xl mx-auto'>
           <NewsPage/>
         </div>
     </div>

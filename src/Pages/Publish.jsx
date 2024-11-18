@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 
 const Publish = () => {
-  const [walletAddress, setWalletAddress] = useState(''); // Initialize wallet address if needed
   const [title, setTitle] = useState('');
   const [content, setContent] = useState('');
   const [category, setCategory] = useState('');
@@ -36,19 +35,6 @@ const Publish = () => {
         <div className="flex flex-col lg:flex-row">
           <main className="flex-1 lg:mr-8">
             <form onSubmit={handleSubmit} className="space-y-8">
-              <div>
-                <label htmlFor="wallet-address" className="block mb-2 text-lg font-medium text-white dark:text-gray-300">
-                  Wallet Address
-                </label>
-                <input
-                  id="wallet-address"
-                  type="text"
-                  value={walletAddress}
-                  readOnly
-                  className="w-full p-2.5 bg-gray-100 border border-gray-300 rounded-lg dark:bg-gray-700 dark:border-gray-600 dark:text-white"
-                />
-              </div>
-
               <div>
                 <label htmlFor="title" className="block mb-2 text-lg font-medium text-white dark:text-gray-300">
                   Title
@@ -143,7 +129,7 @@ const Publish = () => {
 
               <button
                 type="submit"
-                className="bg-slate-900 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 text-white font-semibold h-12 px-6 rounded-lg w-full flex items-center justify-center sm:w-auto dark:bg-sky-500 dark:highlight-white/20 dark:hover:bg-sky-400"
+                className="bg-sky-500  hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 text-white font-bold text-1xl h-12 px-6 rounded-lg w-full flex items-center justify-center sm:w-auto dark:bg-sky-500 dark:highlight-white/20 dark:hover:bg-sky-400"
               >
                 Submit
               </button>
